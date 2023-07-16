@@ -1,1 +1,16 @@
+public class Coche {
 
+    //variable que almacena la cantidad de puertas//
+    public int puertas = 0;
+  
+    public void incrementarPuertas() {
+      this.puertas ++;
+      System.out.println(this.puertas);
+
+    }
+    public static void main(String[] args) {
+        Coche coche = new Coche();
+        coche.incrementarPuertas();
+        coche.incrementarPuertas();
+    }
+}
